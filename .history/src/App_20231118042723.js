@@ -10,7 +10,7 @@ import Footer from './Components/Footer/Footer';
 import men_banner from './Components/Assets/banner_mens.png'
 import women_banner from './Components/Assets/banner_women.png'
 import kid_banner from './Components/Assets/banner_kids.png'
-import AnimatedCursors from './Components/Animation-mouse-curors/AnimatedCursors';
+import AnimatedCursors from './Components/AnimatedCursors/AnimatedCursors';
 
 
 function App() {
@@ -30,7 +30,7 @@ function App() {
         <Route path='/login' element={<LoginSignup/>}/>
       </Routes>
       <Footer/>
-      <AnimatedCursors/>
+      <AnimatedCursors>/</AnimatedCursors>
       </BrowserRouter>
     </div>
   );
